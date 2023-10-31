@@ -90,7 +90,7 @@ color_btn.addEventListener("click",function(){
 		var array1=[
 			{cls:"./image/telephone1.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
 			{cls:"./image/email1.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github1.png",contact:"https://github.com/krishnakumar1823",text:"Github id",call:"https://github.com/krishnakumar1823"}
+			{cls:"./image/github1.png",contact:"https://github.com/dark-devil-git",text:"Github id",call:"https://github.com/dark-devil-git"}
 		]
 		 
 		array1.map((val,ind)=>{
@@ -120,7 +120,7 @@ color_btn.addEventListener("click",function(){
 		var array1=[
 			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
 			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishnakumar1823",text:"Github id",call:"https://github.com/krishnakumar1823"}
+			{cls:"./image/github.png",contact:"https://github.com/dark-devil-git",text:"Github id",call:"https://github.com/dark-devil-git"}
 		]
 		 
 		array1.map((val,ind)=>{
@@ -165,7 +165,7 @@ color_btn.addEventListener("click",function(){
 		var array1=[
 			{cls:"./image/telephone1.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
 			{cls:"./image/email1.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github1.png",contact:"https://github.com/krishnakumar1823",text:"Github id",call:"https://github.com/krishnakumar1823"}
+			{cls:"./image/github1.png",contact:"https://github.com/dark-devil-git",text:"Github id",call:"https://github.com/dark-devil-git"}
 		]
 		 
 		array1.map((val,ind)=>{
@@ -195,7 +195,7 @@ color_btn.addEventListener("click",function(){
 		var array1=[
 			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
 			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishnakumar1823",text:"Github id",call:"https://github.com/krishnakumar1823"}
+			{cls:"./image/github.png",contact:"https://github.com/dark-devil-git",text:"Github id",call:"https://github.com/dark-devil-git"}
 		]
 		array1.map((val,ind)=>{
 		contact_card.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
@@ -343,16 +343,16 @@ project.addEventListener("click",function(e3){
 	
 	
 	var array=[	
-				{image:"image/bookmyshow.png",cnt:"Book My Show",link:"https://krishnakumar1823.github.io/bookmyshow/",lang:"React js,Material UI"},
-				{image:"image/bigbasket.png",cnt:"Big Basket",link:"https://krishnakumar1823.github.io/big-basket/",lang:"React js,Material UI"},
-				{image:"image/swiggy.png",cnt:"Swiggy",link:"https://krishnakumar1823.github.io/swiggy/",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/clock.png",cnt:"Clock",link:"https://krishnakumar1823.github.io/alarm-clock/",lang:"Html,Css,Js"},
-				{image:"image/stopwatch.png",cnt:"Stopwatch",link:"https://krishnakumar1823.github.io/js-stopwatch/",lang:"Html,Css,Js"},
-				{image:"image/mentor.png",cnt:"Mentor",link:"https://krishnakumar1823.github.io/Mentor/",lang:"Html,Css,Bootstrap"},
-				{image:"image/vesper.png",cnt:"Vesper",link:"https://krishnakumar1823.github.io/24th-may-task/",lang:"Html,Css"},
-				{image:"image/event.png",cnt:"Event",link:"https://krishnakumar1823.github.io/TheEvent/#Event-button1",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/groovin.png",cnt:"groovin",link:"https://krishnakumar1823.github.io/9th-june-task/",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/education.png",cnt:"Education",link:"https://krishnakumar1823.github.io/Education/",lang:"Html,Css,Js,Bootstrap"}
+				{image:"image/bookmyshow.png",cnt:"Book My Show",link:"https://dark-devil-git.github.io/react-bookmyshow-clone-website/",lang:"React js,Material UI"},
+				{image:"image/bigbasket.png",cnt:"Big Basket",link:"https://dark-devil-git.github.io/react-bigbasket-clone-website/",lang:"React js,Material UI"},
+				{image:"image/swiggy.png",cnt:"Swiggy",link:"https://dark-devil-git.github.io/swiggy-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+				{image:"image/clock.png",cnt:"Clock",link:"https://dark-devil-git.github.io/alarm-clock/",lang:"Html,Css,Js"},
+				{image:"image/stopwatch.png",cnt:"Stopwatch",link:"https://dark-devil-git.github.io/stopwatch/",lang:"Html,Css,Js"},
+				{image:"image/mentor.png",cnt:"Mentor",link:"https://dark-devil-git.github.io/mentor-clone-website/",lang:"Html,Css,Bootstrap"},
+				{image:"image/vesper.png",cnt:"Vesper",link:"https://dark-devil-git.github.io/vesper-clone-website/",lang:"Html,Css"},
+				{image:"image/event.png",cnt:"Event",link:"https://dark-devil-git.github.io/the-event-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+				{image:"image/groovin.png",cnt:"groovin",link:"https://dark-devil-git.github.io/Groovin-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+				{image:"image/education.png",cnt:"Education",link:"https://dark-devil-git.github.io/Education-clone-website/",lang:"Html,Css,Js,Bootstrap"}
 			]
 		
 		var project1=document.getElementById("project1")
@@ -456,7 +456,7 @@ contact.addEventListener("click",function(e4){
 		var array1=[
 			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
 			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishnakumar1823",text:"Github id",call:"https://github.com/krishnakumar1823"}
+			{cls:"./image/github.png",contact:"https://github.com/dark-devil-git",text:"Github id",call:"https://github.com/dark-devil-git"}
 		]
 		array1.map((val,ind)=>{
 			contactParent.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
