@@ -1,57 +1,21 @@
-// function randomText(){
-// 	var text=("!@#$%^&*()_+=")
-// 	letters=text[Math.floor(Math.random()*text.length)]
-// 	return letters
-// }
-// function rain(){
-// 	let cloud=document.querySelector('.cloud')
-// 	let e=document.createElement("div")
-// 	e.classList.add('drop')
-// 	cloud.appendChild(e)
+var array1=[
+	{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
+	{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
+	{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
+]
 
-// 	let left=Math.floor(Math.random() * (56 - 43 + 1) + 43)
-// 	let size=Math.random()*0.5
-// 	let duration=Math.random()*1.5
-
-// 	e.innerHTML=randomText()
-// 	e.style.left=left + "%"
-// 	e.style.fontSize=1+size+"em"
-// 	e.style.animationDuration=1+duration+'s'
- 
-// 	setTimeout(function(){
-// 		cloud.removeChild(e)
-// 	},1500)
-// }
-// setInterval(function(){
-// 	rain()
-// },100)
-
-
- 
-let options = {
-	startAngle: -1.55,
-	size: 150,
-	value: 0.85,
-	fill: {gradient: ['#009688','#00ffe5']}
-}
-$(".circle .bar").circleProgress(options).on('circle-animation-progress',
-function(event, progress, stepValue){
-	$(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
-});
-$(".html .bar").circleProgress({
-	value: 0.95
-	});
-$(".js .bar").circleProgress({
-	value: 0.85
-});
-$(".bootstrap .bar").circleProgress({
-	value: 0.90
-});      
-$(".react .bar").circleProgress({
-	value: 0.80
-});
-
-
+var array=[	
+	{image:"image/bookmyshow.png",cnt:"Book My Show",link:" https://krishna-kumarr.github.io/react-bookmyshow-clone-website/",lang:"React js,Material UI"},
+	{image:"image/bigbasket.png",cnt:"Big Basket",link:"https://krishna-kumarr.github.io/react-bigbasket-clone-website/",lang:"React js,Material UI"},
+	{image:"image/swiggy.png",cnt:"Swiggy",link:"https://krishna-kumarr.github.io/swiggy-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+	{image:"image/clock.png",cnt:"Clock",link:"https://krishna-kumarr.github.io/alarm-clock/",lang:"Html,Css,Js"},
+	{image:"image/stopwatch.png",cnt:"Stopwatch",link:"https://krishna-kumarr.github.io/stopwatch/",lang:"Html,Css,Js"},
+	{image:"image/mentor.png",cnt:"Mentor",link:"https://krishna-kumarr.github.io/mentor-clone-website/",lang:"Html,Css,Bootstrap"},
+	{image:"image/vesper.png",cnt:"Vesper",link:"https://krishna-kumarr.github.io/vesper-clone-website/",lang:"Html,Css"},
+	{image:"image/event.png",cnt:"Event",link:"https://krishna-kumarr.github.io/the-event-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+	{image:"image/groovin.png",cnt:"groovin",link:"https://krishna-kumarr.github.io/Groovin-clone-website/",lang:"Html,Css,Js,Bootstrap"},
+	{image:"image/education.png",cnt:"Education",link:"https://krishna-kumarr.github.io/Education-clone-website/",lang:"Html,Css,Js,Bootstrap"}
+]
 
 var page=document.getElementById("page0")
 var home=document.getElementById("home")
@@ -86,13 +50,7 @@ color_btn.addEventListener("click",function(){
 
 		var contact_card=document.getElementById("contactCardParent")
 		contact_card.innerHTML=""
-
-		var array1=[
-			{cls:"./image/telephone1.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-			{cls:"./image/email1.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github1.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
-		]
-		 
+		
 		array1.map((val,ind)=>{
 		contact_card.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
 			<div class="position-relative contact-div row justify-content-center align-items-center" style="cursor:pointer;border:1px solid #009688;border-radius:6px;width:100%;height:30vh;">
@@ -116,12 +74,6 @@ color_btn.addEventListener("click",function(){
 
 		var contact_card=document.getElementById("contactCardParent")
 		contact_card.innerHTML=""
-
-		var array1=[
-			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
-		]
 		 
 		array1.map((val,ind)=>{
 		contact_card.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
@@ -161,12 +113,6 @@ color_btn.addEventListener("click",function(){
 
 		var contact_card=document.getElementById("contactCardParent")
 		contact_card.innerHTML=""
-
-		var array1=[
-			{cls:"./image/telephone1.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-			{cls:"./image/email1.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github1.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
-		]
 		 
 		array1.map((val,ind)=>{
 		contact_card.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
@@ -191,12 +137,7 @@ color_btn.addEventListener("click",function(){
 
 		var contact_card=document.getElementById("contactCardParent")
 		contact_card.innerHTML=""
-
-		var array1=[
-			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
-		]
+ 
 		array1.map((val,ind)=>{
 		contact_card.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
 			<div class="position-relative contact-div row justify-content-center align-items-center" style="cursor:pointer;border:1px solid #009688;border-radius:6px;width:100%;height:30vh;">
@@ -339,21 +280,6 @@ project.addEventListener("click",function(e3){
 	resume1.setAttribute("class","col-12 col-md-12 col-lg-6 home hidden")
 	project1.setAttribute("class","col-12 col-md-12 col-lg-6 div5-bg home in active")
 	contact1.setAttribute("class","col-12 col-md-12 col-lg-6 div6-bg home hidden")
-
-	
-	
-	var array=[	
-				{image:"image/bookmyshow.png",cnt:"Book My Show",link:" https://krishna-kumarr.github.io/react-bookmyshow-clone-website/",lang:"React js,Material UI"},
-				{image:"image/bigbasket.png",cnt:"Big Basket",link:"https://krishna-kumarr.github.io/react-bigbasket-clone-website/",lang:"React js,Material UI"},
-				{image:"image/swiggy.png",cnt:"Swiggy",link:"https://krishna-kumarr.github.io/swiggy-clone-website/",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/clock.png",cnt:"Clock",link:"https://krishna-kumarr.github.io/alarm-clock/",lang:"Html,Css,Js"},
-				{image:"image/stopwatch.png",cnt:"Stopwatch",link:"https://krishna-kumarr.github.io/stopwatch/",lang:"Html,Css,Js"},
-				{image:"image/mentor.png",cnt:"Mentor",link:"https://krishna-kumarr.github.io/mentor-clone-website/",lang:"Html,Css,Bootstrap"},
-				{image:"image/vesper.png",cnt:"Vesper",link:"https://krishna-kumarr.github.io/vesper-clone-website/",lang:"Html,Css"},
-				{image:"image/event.png",cnt:"Event",link:"https://krishna-kumarr.github.io/the-event-clone-website/",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/groovin.png",cnt:"groovin",link:"https://krishna-kumarr.github.io/Groovin-clone-website/",lang:"Html,Css,Js,Bootstrap"},
-				{image:"image/education.png",cnt:"Education",link:"https://krishna-kumarr.github.io/Education-clone-website/",lang:"Html,Css,Js,Bootstrap"}
-			]
 		
 		var project1=document.getElementById("project1")
 
@@ -452,12 +378,7 @@ contact.addEventListener("click",function(e4){
 		contactParent.setAttribute("class","col-12 row")
 		contactParent.setAttribute("id","contactCardParent")
 		contactHeaddiv.appendChild(contactParent)
-
-		var array1=[
-			{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-			{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-			{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
-		]
+		
 		array1.map((val,ind)=>{
 			contactParent.innerHTML+=`<div class="col-6 px-2 my-2" style="min-height: 30vh;">
 				<div class="position-relative contact-div row justify-content-center align-items-center" style="cursor:pointer;border:1px solid #009688;border-radius:6px;width:100%;height:30vh;">
