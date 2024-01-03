@@ -1,7 +1,7 @@
 var array1=[
-	{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
-	{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
-	{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
+{cls:"./image/telephone.png",contact:"tel:+919787533778",text:"phone number",call:"9787533778"},
+{cls:"./image/email.png",contact:"mailto:kumarkrishna11231@gmail.com",text:"Mail id",call:"kumarkrishna11231@gmail"},
+{cls:"./image/github.png",contact:"https://github.com/krishna-kumarr",text:"Github id",call:"https://github.com/krishna-kumarr"}
 ]
 
 var array=[	
